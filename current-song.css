@@ -1,0 +1,400 @@
+.current-song{
+    background-color: #121212;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg-blur-cs{
+    backdrop-filter: blur(8px);
+    background-color: rgba(39, 36, 36, 0.544);
+    backdrop-filter: blur(8px);
+    position: relative;
+    width: 96%;
+    height: 90%;
+    border-radius: 80PX;
+    left: 1.5vw;
+    top: 5vh;
+}
+.player-icon{
+    position: relative;
+    top: 30%;
+}
+
+.player-icon1{
+    position: relative;
+    top: -82%;
+}
+.prev-icon{
+    color: lime;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:0%;
+    left:5%;
+}
+
+.play-icon{
+    color: lime;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 20%;
+    left: 7%;
+}
+.next-icon{
+    color: lime;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:10%;
+    left:10%;
+}
+.shuffle-icon{
+    color: lime;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:10%;
+    left:15%;
+}
+.repeat-icon{
+    color: lime;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:0%;
+    left:75%;
+}
+.queue-icon{
+    color: lime;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:0%;
+    left:85%;
+}
+.vol-icon{
+    color: lime;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:0%;
+    left:87%;
+}
+/*HOVER PART FOR ALL THE ICONS IN PLAYER*/
+
+.prev-icon:hover{
+    color: white;
+}
+.prev-icon:hover{
+    color: white;
+}
+.play-icon:hover{
+    color: white;
+}
+.next-icon:hover{
+    color: white;
+}
+.shuffle-icon:hover{
+    color: white;
+}
+.dot:hover{
+    color: white;
+}
+.repeat-icon:hover{
+    color: white;
+}
+.queue-icon:hover{
+    color: white;
+}
+.vol-icon:hover{
+    color:white;
+}
+.sg-main{
+    display: flex;
+    position: relative;
+    top: 320px;
+    left: -50px;
+    flex-direction: column;
+    align-items: center;
+}
+.sg-main .sg-name{
+    font-size: 50px;
+    color: rgb(0, 255, 51);
+    font-weight: 900;
+}
+.sg-main .sg-artist{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.sg-img{
+    border-radius: 60px;
+    width: 350px;
+    height: 350px;
+    position: fixed;
+    top: 110px;
+    left: 100px;
+}
+
+.player{
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.701);
+    backdrop-filter: blur(8px);
+    width: 90%;
+    height: 15%;
+    position: relative;
+    top: 65%;
+    left: 5%;
+}
+.st-time{
+    color: rgb(85, 255, 0);
+    position: relative;
+    top: -0%;
+    left: 30%;
+}
+.dot {
+    height: 18px;
+    width: 18px;
+    background-color: rgba(255, 255, 255, 0.629);
+    backdrop-filter: blur(12px);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 58%;
+    top: -19%;
+    z-index: 2;
+}
+.sg-timeline{
+    color: rgb(85, 255, 0);
+    width: 32%;
+    height: 5%;
+    position: relative;
+    left: 35%;
+    top: -35%;
+    background-color: rgb(85, 255, 0);
+    border-color: rgb(85, 255, 0);
+    border-radius: 10px;
+    
+}
+.sg-timeline1{
+    color: rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    position: relative;
+    left: 59%;
+    top: -42%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.ed-time{
+    color: rgb(85, 255, 0);
+    position: relative;
+    top: -54%;
+    left: 70%;
+}
+
+.expand{
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    top:-410%;
+    left: 80%;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.364);
+    height: 230px;
+    border-radius: 40px;
+    display: block;
+
+}
+.info  {
+    background-color: rgb(85, 255, 0);
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 66%;
+    width: 80%;
+    left: 10%;
+}
+.playlist{
+    background-color: lime;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 46%;
+    width: 80%;
+    left: 10%;
+}
+.remove{
+    background-color: rgb(85, 255, 0);
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 26%;
+    width: 80%;
+    left: 10%;
+}
+.download{
+    background-color: rgb(85, 255, 0);
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 6%;
+    width: 80%;
+    left: 10%;
+}
+.share{
+    background-color: rgb(85, 255, 0);
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 86%;
+    width: 80%;
+    left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:412px) {
+    .bg-blur-cs{
+        width: 80%;
+        left: 12%;
+    }
+    .sg-img{
+        border-radius: 60px;
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        top: 80px;
+        left: 50px;
+    }
+    .sg-main .sg-name{
+        font-size: 25px;
+        position: relative;
+        left: 30%;
+    }
+    .sg-main .sg-artist{
+        font-size:20px;
+        position: relative;
+        left: 60%;
+    }
+    .player{
+        width: 90%;
+        height: 35%;
+        position: relative;
+        top: 53%;
+        left: 5%;
+    }
+    .player-icon{
+        position: relative;
+        top:50%;
+        left: 10%;
+    }
+    .player-icon1{
+        position: relative;
+        top:20%;
+        left: -55%;
+    }
+    .st-time{
+        color: rgb(85, 255, 0);
+        position: relative;
+        top: 0%;
+        left: 10%;
+    }
+    .ed-time{
+        color: rgb(85, 255, 0);
+        position: relative;
+        top: -26%;
+        left: 80%;
+    }
+    .sg-timeline{
+        position: relative;
+        top:-14%;
+    }
+    .sg-timeline1{
+        position: relative;
+        top:-20%;
+    }
+    .dot{
+        position: relative;
+        top:-7%;
+    }
+}
+
+@media screen and (max-width:393px) {
+    .bg-blur-cs{
+        width: 80%;
+        left: 12%;
+    }
+    .sg-img{
+        border-radius: 60px;
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        top: 80px;
+        left: 50px;
+    }
+    .sg-main .sg-name{
+        font-size: 25px;
+        position: relative;
+        left: 30%;
+    }
+    .sg-main .sg-artist{
+        font-size:20px;
+        position: relative;
+        left: 55%;
+        top: 30px;
+    }
+    .player{
+        width: 90%;
+        height: 35%;
+        position: relative;
+        top: 53%;
+        left: 5%;
+    }
+    .player-icon{
+        position: relative;
+        top:50%;
+        left: 10%;
+    }
+    .player-icon1{
+        position: relative;
+        top:20%;
+        left: -55%;
+    }
+    .st-time{
+        color: rgb(85, 255, 0);
+        position: relative;
+        top: 0%;
+        left: 10%;
+    }
+    .ed-time{
+        color: rgb(85, 255, 0);
+        position: relative;
+        top: -26%;
+        left: 80%;
+    }
+    .sg-timeline{
+        position: relative;
+        top:-14%;
+    }
+    .sg-timeline1{
+        position: relative;
+        top:-20%;
+    }
+    .dot{
+        position: relative;
+        top:-6.5%;
+    }
+}

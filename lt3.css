@@ -1,0 +1,240 @@
+.lt-TOP{
+    background-color: rgba(39, 36, 36, 0.544);
+    height: 80vh ;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.bg-blur-TOP{
+    width: 90%;
+    height: 80%;
+    background-color: rgba(39, 36, 36, 0.544);
+    backdrop-filter: blur(8px);
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 40px;
+    display: flex;
+    padding-block: 10px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.card{
+    width: 20%;
+    height: 70%;    
+    background-color: rgba(0, 0, 0, 0.415);
+    backdrop-filter: blur(8px);
+    border-radius: 40px;
+
+}
+.card-img{
+    width: 90%;
+    height: 60%;
+    position: relative;
+    border-radius: 20px;
+    top: 5%;
+
+}
+.card h1{
+    color: lime;
+    width: 90%;
+    position: relative;
+    top: 10%;
+    
+}
+
+.card h1:hover{
+    color: white;
+}
+
+.card1-img{
+    width: 90%;
+    height: 60%;
+    position: relative;
+    border-radius: 20px;
+    top: 5%;
+
+}
+.card2-img{
+    width: 90%;
+    height: 60%;
+    position: relative;
+    border-radius: 20px;
+    top: 5%;
+}
+
+.card3-img{
+    width: 90%;
+    height: 60%;
+    position: relative;
+    border-radius: 20px;
+    top: 5%;
+}
+
+.card4-img{
+    width: 90%;
+    height: 60%;
+    position: relative;
+    border-radius: 20px;
+    top: 5%;
+}
+
+
+.hd{
+    text-align: center;
+    background-color: #31353054;
+    border-radius: 40px;
+    backdrop-filter: blur(8px);
+    width: 30%;
+    position: relative;
+    left: 35%;
+    top: 2%;
+}
+.hd h1{
+    color:lime;
+    font-size: 50px;
+}
+.hd h1:hover{
+    color: rgb(255, 255, 255);
+}
+
+.hd1 h1{
+    color:lime;
+    font-size: 50px;
+}
+.hd1 h1:hover{
+    color: rgb(255, 255, 255);
+}
+
+.hd3 h1{
+    color:lime;
+    font-size: 50px;
+}
+.hd3 h1:hover{
+    color: rgb(255, 255, 255);
+}
+
+.play-icon2{
+    color: lime;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    display: none;
+}
+
+.card1-img:hover + .play-icon2{
+    display: block;
+}
+.card2-img:hover + .play-icon2{
+    display: block;
+}
+.card3-img:hover + .play-icon2{
+    display: block;
+}
+.card4-img:hover + .play-icon2{
+    display: block;
+}
+
+
+@media screen and (max-width:500px) {
+    .card{
+        width: 300px;
+        height: 200px;    
+        background-color: rgba(0, 0, 0, 0.415);
+        backdrop-filter: blur(8px);
+        border-radius: 40px;
+    
+    }
+    .bg-blur-hindi{
+        width: 90%;
+        height: 130%;
+        background-color: rgba(39, 36, 36, 0.544);
+        backdrop-filter: blur(8px);
+        position: relative;
+        top: 5%;
+        left: 5%;
+        border-radius: 40px;
+        display: flex;
+        padding-block: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-direction: column;
+    }
+    .bg-blur-eng {
+        width: 90%;
+        height: 140%;
+        background-color: rgba(39, 36, 36, 0.544);
+        backdrop-filter: blur(8px);
+        position: relative;
+        top: 62%;
+        left: 5%;
+        border-radius: 40px;
+        display: flex;
+        padding-block: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .hd {
+        text-align: center;
+        background-color: #31353054;
+        border-radius: 40px;
+        backdrop-filter: blur(8px);
+        width: 30%;
+        position: relative;
+        left: 23%;
+        top: 59%;
+        z-index: 2;
+    }
+    .hd1 {
+        text-align: center;
+        background-color: #31353054;
+        border-radius: 40px;
+        backdrop-filter: blur(8px);
+        width: 30%;
+        position: relative;
+        left: 30%;
+        top: 0%;
+        z-index: 2;
+    }
+    .hd3 {
+        text-align: center;
+        background-color: #31353054;
+        border-radius: 40px;
+        backdrop-filter: blur(8px);
+        width: 30%;
+        position: relative;
+        left: 35%;
+        top: 115%;
+        z-index: 2;
+    }
+    .bg-blur-TOP {
+        width: 90%;
+        height: 120%;
+        background-color: rgba(39, 36, 36, 0.544);
+        backdrop-filter: blur(8px);
+        position: relative;
+        top: 120%;
+        left: 5%;
+        border-radius: 40px;
+        display: flex;
+        padding-block: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-around;
+    }
+    .expand{
+        display: none;
+    }
+}    
+
